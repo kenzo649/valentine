@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="styles.css"/>
+        <title>valentine</title>
+    </head>
+    <body>
+        <div class="container">
+                <img src="funnygifsbox.com-2020-01-14-13-40-19-64.gif" width="400" height="300">
+            <div>
+              <h1 class="header_text">WILL YOU BE MY VAL</h1> 
+                  </div>
+
+<div class="buttons">
+  <button class="btn" id="yesButton" onclick="nextpage()">YES</button>
+  <button class="btn" id="noButton" onclick="moveButton()">NO</button>
+<script>
+  function nextpage(){
+     window.location.href = "yes.html";
+  }
+
+  function moveButton(){
+    var x = Math.random() * (window.innerwidth - document.getElementById("noButton").offsetwidth) - 85;
+    var y = Math.random() *(window.innerHeight - document.getElementById("noButton").offsetHeight) - 48;
+    document.getElementById("noButton").style.left = '$ (x)px';
+    document.getElementById("noButton").style.top = '$(y)px';
+  }
+</script>
+</div>
+        </div>
+        <a href="C:\Users\BUYPC COMPUTERS\Documents\vvl\HTML"></a>
+    </body>
+</html>
